@@ -6,8 +6,8 @@ function insertAfter # file line newText
 
 . /vagrant/demo/env.sh
 
-export SSLNAME=node-0-keystore.jks
-export OPENSSL=false
+#export OPENSSL=false
+#export SSLNAME=node-0-keystore.jks
 
 if [ ! -f /vagrant/search-guard-ssl/pom.xml ]
 then
